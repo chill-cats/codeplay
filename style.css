@@ -1,0 +1,50 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Amatic SC", cursive;
+  background: url(nature-3058859.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 5rem;
+  margin: 0;
+  text-align: center;
+  background-image: url(https://iamsober.com/static/a37f9c1c4be8ef2700e422567e1e3cc2/65d38/pink-cloud-of-recovery.jpg);
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation: movebackground 100s linear infinite;
+  -moz-animation: movebackground 100s linear infinite;
+  animation: movebackground 100s linear infinite;
+}
+h1::selection {
+  background-image: linear-gradient(to bottom right, #fadba6, #a77768);
+}
+
+@keyframes movebackground {
+  0%,
+  100% {
+    background-position: 250px 25px;
+  }
+  50% {
+    background-position: 425px 25px;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
